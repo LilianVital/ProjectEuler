@@ -3,13 +3,20 @@
 
 ## Calcular limite inferior e superior baseado no numero de digitos.
 
-is.palindrome <-  function(){
+# Numero de digitos
+n <- 3
+
+is.palindrome <-  function(numero){
+  numero <- toString(numero)
+  charsplit <- strsplit(numero, "")[[1]]
+  revchar <- rev(charsplit)
   
+  all(charsplit==revchar)
 }
 
 palindrome <- c()
-a <- 10
-b <- 99
+a <- 10^(n - 1)
+b <- (10^n) - 1 
 for(i in a:b){
   for(j in i:b){
     num <- i*j
@@ -20,3 +27,4 @@ for(i in a:b){
 }
 
 largest_palindrome <- max(palindrome)
+
