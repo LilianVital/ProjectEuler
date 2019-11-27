@@ -4,7 +4,7 @@
 
 library(numbers)
 
-i <- 0 ##-- contador
+i <- 0 ##-- contador maximo numero primo
 p <- 0 ##-- verifica se o numero é primo até o limite
 
 while(p < 10001){
@@ -13,4 +13,5 @@ while(p < 10001){
     p <- p + 1
   }
 }
+
 i
