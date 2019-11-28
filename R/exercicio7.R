@@ -15,3 +15,5 @@ while(p < 10001){
 }
 
 i
+
+###-- https://github.com/Fazendaaa/project-euler/blob/master/src/r/R/problem-6.R
