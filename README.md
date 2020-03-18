@@ -1,2 +1,2 @@
 # ProjectEuler
-Exercícios do projecteuler.net
+Exercícios provenientes do projecteuler.net
